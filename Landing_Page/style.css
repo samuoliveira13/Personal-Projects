@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Crimson+Pro&family=Imperial+Script&family=Poppins&family=Righteous&family=Sarala:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Righteous&family=Sarala:wght@400;700&display=swap');
 
 * {
     margin: 0;
@@ -8,5 +8,30 @@
 }
 
 body {
-    font-size: 100%;
+    font-size: 62.5%;
+    background: linear-gradient(68.15deg, #2F2325 16.62%, #BE5D52 85.61%);
+}
+
+.header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding: 2.4em;
+}
+
+.header-img {
+    height: 7.2em;
+}
+
+.header-menu {
+    display: flex;
+    gap: 3.2em
+}
+
+.header-menu-item {
+    font-family: 'Sarala', sans-serif;
+    color: #FFF2E7;
+    font-weight: 400;
+    font-size: 1.8em
 }
